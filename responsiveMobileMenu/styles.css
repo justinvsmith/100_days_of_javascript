@@ -102,10 +102,18 @@ h2 {
     margin: 3px;
 }
 
+
+.close,
+.hamburger {
+    display:  none;
+}
+
 /* RESPONSIVE MENU  */
 /* RESPONSIVE MENU  */
 /* RESPONSIVE MENU  */
 @media screen and (max-width: 600px) {
+
+    
     .flex {
         flex-direction: column;
     }
@@ -116,7 +124,13 @@ h2 {
         cursor: pointer;
     }
 
+
+    .hamburger {
+        display: block;
+    }
+    
     .close {
+        display: block;
         position: absolute;
         right: 3rem;
         transform: translateY(-20rem);
