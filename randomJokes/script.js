@@ -6,6 +6,7 @@ const joke = document.querySelector(".joke"),
 
 btn.addEventListener("click", getJoke);
 
+//getting jokes, using fetch with promises
 // function getJoke() {
 //     fetch(url)
 //         .then((response) => {
@@ -16,6 +17,7 @@ btn.addEventListener("click", getJoke);
 //         })
 // };
 
+//getting jokes using async await
 async function getJoke() {
     try{
         const response = await fetch(url);
