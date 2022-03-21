@@ -35,9 +35,13 @@ for(let i=0; i<btns.length; i++) {
         productName.forEach((product) => {
             const item = product.textContent;
 
-            if(item.toLowerCase().indexOf(text)) {
-
-            };
+            if(item.toLowerCase().indexOf(text) !== -1) {
+                product.parentElement.parentElement.style.display = "block";
+                noResult.style.display = "none";
+            } else {
+                product.parentElement.parentElement.style.display = "none";
+                noResult.style.display = "block";
+            }
         });
     }
 
