@@ -144,7 +144,7 @@ form button {
 }
 
 .progress-bar {
-    width: 0%;
+    width: 2%;
     height: 3px;
     background-color: #777;
     transition: all .3s ease;
