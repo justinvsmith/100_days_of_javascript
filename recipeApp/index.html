@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="meal-search container">
+            <h2>What would you <span>like to cook?</span></h2>
+            <div class="search-box">
+                <form action="" onsubmit="return false">
+                    <input type="text" id="search" placeholder="Search..." />
+                    <button class="btn search-btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="meal-result">
+            <div class="meals" id="meal">
+                <!-- Single Meal Item -->
+                <!-- <div class="meal">
+                    <div class="meal-img">
+                        <img src="./images/food.jpg" alt="food image">
+                    </div>
+                    <div class="meal-name">
+                        <h3>Potato Chips</h3>
+                        <a href="#" class="recipe-btn">View Recipe &rarr;</a>
+                    </div>
+                </div> -->
+                <!-- End Single Meal Item -->
+            </div>
+        </div>
+
+        <!-- Meal Modal -->
+        <div class="meal-modal">
+            <div class="meal-details">
+                <button class="btn close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="recipe-content">
+                    <!-- <div class="recipe-img">
+                        <img src="./images/food.jpg" alt="">
+                    </div>
+                    <h2 class="recipe-title">Meal Name Here</h2>
+
+                    <div class="recipe-instruction">
+                        <h3>Instruction</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur porro quas ratione repellat perspiciatis beatae! Minus placeat quasi cupiditate. Blanditiis nesciunt sunt, exercitationem nobis ullam ipsam deserunt deleniti maxime quam!</p>
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">Watch Video</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- End Meal Modal -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
